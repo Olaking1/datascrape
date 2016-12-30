@@ -48,6 +48,7 @@ class TutorialSpiderMiddleware(object):
         # similarly to the process_spider_output() method, except
         # that it doesn’t have a response associated.
 
+        # some changes
         # Must return only requests (not items).
         for r in start_requests:
             yield r
